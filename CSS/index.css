@@ -1,0 +1,194 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.nav-link,.nav-link:active,.nav-link:visited {
+    color: white;
+}
+.nav-link:hover{
+    color: aqua;
+}
+
+.navbar-brand{
+    font-size: 200%;
+ }
+ 
+.nav-item::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: all ease-in-out 0.5s;
+}
+.nav-item:hover::after{
+    width: 40%;
+}
+
+.carousel-item{
+    height: 32rem;
+}
+.carousel-item img{
+    filter: brightness(30%);
+}
+
+.carousel-caption{
+    margin-bottom: 90px;
+    font-size: 250%;
+}
+.carousel-caption h5{
+    font-size: 150%;
+}
+.carousel-caption button{
+    transition: all ease-in-out 0.5s;
+    animation:translatio 1s ease-in-out infinite;animation: 1s;
+}
+.carousel-caption button:hover{
+    background-color: rgb(219, 43, 43);
+    cursor: pointer;
+}
+.card img{
+    width:  200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.card{
+    margin-top: 40%; 
+    border: none;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+.layer:hover{
+    background: rgba(226, 0, 0, 0.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 59%;
+    opacity: 1;
+}
+.div{
+    background-color: rgb(133, 39, 133);
+    height: 400px;
+    margin-top: 5%;
+}
+.h{
+    position: absolute;
+    top: 190%;
+    color: white;
+    text-align: center;
+    left: 25%;
+}
+.p3{
+    margin-top: 10%;
+    text-align: center;
+}
+
+/* .container-fluid a{
+    margin-left: 20%;
+} */
+
+h4{
+    font-size: 200%;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color:rosybrown;
+    height: 30rem;
+}
+.p5{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.hh{
+   position: absolute;
+   margin-left: 25%;
+   margin-top: 6%;
+}
+.hh1{
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 6%;
+}
+.hh2{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 6%;
+}
+.p6{
+    position: absolute;
+    margin-top: 80%;
+    right: 450%;
+}
+.p7{
+    position: absolute;
+    margin-top: 80%;
+    right: 320%;
+}
+.p8{
+    position: absolute;
+    margin-top: 80%;
+    right: 200%;
+}
+.p9{
+    position: absolute;
+    margin-top: 80%;
+    right: 120%;
+}
+.p10{
+    position: absolute;
+    margin-top: 80%;
+    right: 10%;
+}
+.fa-instagram{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    background-color: black;
+    margin-left: 300%;
+    bottom: 90%;
+}
+.fa-twitter{
+    background-color: black;
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 350%;
+    bottom: 90%
+}
+
+.fa-facebook{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    background-color: black;
+    margin-left: 400%;
+    bottom: 90%
+}

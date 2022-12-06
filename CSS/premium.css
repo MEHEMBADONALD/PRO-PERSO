@@ -1,0 +1,144 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.nav-link,.nav-link:active,.nav-link:visited {
+    color: white;
+}
+.nav-link:hover{
+    color: aqua;
+}
+.navbar-brand{
+   font-size: 200%;
+}
+.nav-item::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: all ease-in-out 0.5s;
+}
+.nav-item:hover::after{
+    width: 40%;
+}
+
+.carousel-item{
+    height: 32rem;
+}
+.carousel-item img{
+    filter: brightness(30%);
+}
+
+.carousel-caption{
+    margin-bottom: 90px;
+    font-size: 250%;
+}
+.carousel-caption h5{
+    font-size: 150%;
+}
+.carousel-caption button{
+    font-size: 50%;
+    height: 60px;
+    animation:animatio 2s infinite ;
+}
+.carousel-caption button:hover{
+    background-color: rgb(221, 82, 82);
+}
+.p2{
+    position: absolute;
+    font-size: 50%;
+    top: 120%;
+    color: aqua;
+}
+.card{
+    border: none;
+    margin-top: 40%;
+}
+.card img{
+    /* border:solid 1px; */
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
+/* FOOTER */
+
+.footer{
+    background-color:rosybrown;
+    height: 30rem;
+}
+.p5{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.hh{
+   position: absolute;
+   margin-left: 25%;
+   margin-top: 6%;
+}
+.hh1{
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 6%;
+}
+.hh2{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 6%;
+}
+.p6{
+    position: absolute;
+    margin-top: 80%;
+    right: 450%;
+}
+.p7{
+    position: absolute;
+    margin-top: 80%;
+    right: 320%;
+}
+.p8{
+    position: absolute;
+    margin-top: 80%;
+    right: 200%;
+}
+.p9{
+    position: absolute;
+    margin-top: 80%;
+    right: 120%;
+}
+.p10{
+    position: absolute;
+    margin-top: 80%;
+    right: 10%;
+}
+.fa-instagram{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    background-color: black;
+    margin-left: 300%;
+    bottom: 90%;
+}
+.fa-twitter{
+    background-color: black;
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 350%;
+    bottom: 90%
+}
+
+.fa-facebook{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    background-color: black;
+    margin-left: 400%;
+    bottom: 90%
+}
